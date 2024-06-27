@@ -23,7 +23,7 @@ https://github.com/puneetbhakte/MVVM-Retrofit/assets/96128250/7e5acf87-112f-4116
 
 - First I have created a model class using JSON plugin
 - Next I have created service interface and retrofit object for api call
-- Then I have created a repository class which takes service interface as a parameter and here I have created a suspend function to run the efunction in background
+- Then I have created a repository class which takes service interface as a parameter and here I have created a suspend function to run the function in background
 - After that I have created a view model class whish take repository as a parameter and here i have launch the function in seperate coroutines.
 - In viewmodel class I have also handle the loading indicator as a boolean variable.
 - I have used live data to store the values.
